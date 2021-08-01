@@ -1,6 +1,6 @@
 const resultElem = document.querySelector('#result');
-const buttonElem = document.querySelector('#btn');
 const maxValueInputElem = document.querySelector('#max_value_input');
+const buttonElem = document.querySelector('#generate_button');
 
 const generateRandomNumber = (maxValue) => Math.round(maxValue * Math.random());
 
