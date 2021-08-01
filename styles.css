@@ -18,18 +18,20 @@ body {
 #frame > h3 {
     margin: 0;
 }
+
 #frame > label {
     margin: 10px 0 0;
 }
-#frame > #btn {
-    margin: 10px 0 0;
+
+#frame > #generate_button {
+    margin: 10px 0;
     background-color: antiquewhite;
     outline: none;
     border-radius: 4px;
-    width: 100px;
+    width: 150px;
     height: 30px;
     font-weight: bold;
 }
-#frame > #btn:active {
+#frame > #generate_button:active {
     background-color: blanchedalmond;
 }
